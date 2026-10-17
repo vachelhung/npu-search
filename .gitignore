@@ -1,0 +1,10 @@
+# Whitelist: ignore everything by default so personal data can never be committed by accident.
+*
+!.gitignore
+!README.md
+!LICENSE
+!requirements.txt
+!config.example.json
+!mcp_server.py
+!npusearch/
+!npusearch/*.py

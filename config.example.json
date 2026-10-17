@@ -1,0 +1,21 @@
+{
+  "roots": [
+    "C:\\Users\\YourName\\Documents",
+    "C:\\Projects"
+  ],
+  "exclude_dirs": [
+    "AppData", "node_modules", ".git", "bin", "obj", "venv", ".venv", "env", "__pycache__",
+    "site-packages", "Steam", "steamapps", ".vs", ".vscode", "dist", "build",
+    ".cache", ".npm", ".nuget", ".gradle", ".cargo", ".rustup", ".conda",
+    "anaconda3", "miniconda3", "packages", ".idea", "$Recycle.Bin"
+  ],
+  "skip_hidden_dirs": true,
+  "doc_ext": [".pdf", ".docx", ".xlsx", ".pptx", ".md", ".txt", ".rtf", ".csv"],
+  "code_ext": [".py", ".c", ".h", ".cpp", ".hpp", ".cc", ".cs", ".js", ".ts", ".tsx", ".jsx",
+               ".java", ".go", ".rs", ".ps1", ".sh", ".ino", ".html", ".css", ".sql", ".yaml",
+               ".yml", ".toml", ".ipynb", ".vhd", ".v", ".sv", ".kt", ".lua",
+               ".kicad_sch", ".kicad_pcb", ".kicad_pro"],
+  "max_file_mb": 50,
+  "max_chars_per_file": 200000,
+  "device": "NPU"
+}
